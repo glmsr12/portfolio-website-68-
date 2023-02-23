@@ -6,4 +6,18 @@ section {
 
 .hero {
   background-color: antiquewhite;
+  font-size: 1.6rem;
+}
+
+footer {
+  height: 200px;
+  background-color: rgb(35, 26, 14);
+}
+
+nav {
+  display: flex;
+}
+
+ul {
+  display: flex;
 }
