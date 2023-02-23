@@ -1,0 +1,9 @@
+section {
+  height: 500px;
+  background-color: rgb(225, 183, 132);
+  border: solid rgb(108, 74, 32) 2px;
+}
+
+.hero {
+  background-color: antiquewhite;
+}
