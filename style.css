@@ -3,8 +3,9 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+
+/*    Hero Section   */
 section {
-  height: 100vh;
   background-color: rgb(225, 183, 132);
   border: solid rgb(108, 74, 32) 2px;
 }
@@ -41,6 +42,9 @@ h1 {
   margin: 0;
 }
 
+h2 {
+  font-size: 2rem;
+}
 p {
   margin: 0;
   font-weight: 400;
@@ -85,3 +89,23 @@ p {
 .social {
   margin: 5px;
 }
+
+/*  End  Hero Section   */
+
+/*    About Section   */
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+}
+
+.headshot {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+/*   End About Section   */
