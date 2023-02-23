@@ -1,5 +1,5 @@
 section {
-  height: 500px;
+  height: 100vh;
   background-color: rgb(225, 183, 132);
   border: solid rgb(108, 74, 32) 2px;
 }
@@ -16,8 +16,28 @@ footer {
 
 nav {
   display: flex;
+  justify-content: space-between;
 }
 
 ul {
   display: flex;
+  list-style-type: none;
+  width: 400px;
+  justify-content: space-around;
+  font-size: 1.2rem;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 4rem;
+}
+.hero-text {
+  margin-left: 60px;
+}
+
+.button {
+  width: ;
 }
