@@ -39,5 +39,9 @@ h1 {
 }
 
 .button {
-  width: ;
+  width: 200px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: rgb(247, 114, 65);
+  text-align: center;
 }
