@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
 section {
   height: 100vh;
   background-color: rgb(225, 183, 132);
@@ -33,15 +38,36 @@ li {
 
 h1 {
   font-size: 4rem;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+  font-weight: 400;
+}
+.hero-area {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
 }
 .hero-text {
   margin-left: 60px;
+  margin-bottom: 200px;
 }
 
 .button {
-  width: 200px;
-  height: 80px;
+  width: 150px;
+  height: 40px;
   border-radius: 40px;
   background-color: rgb(247, 114, 65);
   text-align: center;
+}
+.button:hover {
+  background-color: rgb(244, 167, 139);
+}
+
+.button:active {
+  background-color: darkkhaki;
+  color: rgb(73, 30, 30);
 }
