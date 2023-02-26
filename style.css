@@ -10,7 +10,7 @@ section {
 }
 
 .hero {
-  background-color: #1c1d25;
+  background-color: #23242a;
   font-size: 1.6rem;
   color: white;
 }
@@ -33,10 +33,6 @@ ul {
   width: 400px;
   justify-content: space-around;
   font-size: 1.2rem;
-}
-
-ul.show {
-  display: block;
 }
 
 li {
@@ -188,9 +184,25 @@ hr {
     background-color: transparent;
     color: white;
     font-size: 2rem;
+    align-self: flex-end;
   }
 
   ul {
+    display: none;
+    background-color: #48484c;
+    margin: 0px;
+  }
+
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .logo {
     display: none;
   }
 }
