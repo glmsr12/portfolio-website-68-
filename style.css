@@ -54,7 +54,7 @@ p {
 
 a {
   text-decoration: none;
-  color: rgb(247, 114, 65);
+  color: white;
 }
 .hero-area {
   display: flex;
@@ -101,6 +101,13 @@ a {
 }
 
 /*  End  Hero Section   */
+
+/*   Hamburger Menu */
+.hamburger {
+  display: none;
+}
+
+/*  End Hamburger Menu */
 
 /*    About Section   */
 .sub-section {
@@ -158,3 +165,24 @@ hr {
 }
 
 /*   End Project Section   */
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 2rem;
+  }
+
+  ul {
+    display: none;
+  }
+}
