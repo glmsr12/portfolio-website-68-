@@ -16,8 +16,10 @@ section {
 }
 
 footer {
-  height: 100px;
+  padding: 50px;
   background-color: black;
+  color: white;
+  text-align: center;
 }
 
 nav {
@@ -48,6 +50,11 @@ h2 {
 p {
   margin: 0;
   font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(247, 114, 65);
 }
 .hero-area {
   display: flex;
@@ -116,10 +123,10 @@ p {
 /*    Project Section   */
 
 .project-card {
-  width: 250px;
+  width: 300px;
   height: 400px;
-  border: 1px solid black;
-  box-shadow: 5px 5px 20px rgb(198, 193, 193);
+  border-radius: 5px;
+  box-shadow: 5px 5px 20px rgb(117, 113, 113);
   margin-bottom: 40px;
 }
 
