@@ -84,11 +84,9 @@ a {
 }
 .socials {
   padding-bottom: 200px;
-}
-
-.socials div a {
   color: white;
 }
+
 .logo {
   margin: 0;
   padding: 0;
@@ -98,6 +96,7 @@ a {
 
 .social {
   margin: 5px;
+  color: white;
 }
 
 /*  End  Hero Section   */
@@ -184,12 +183,12 @@ hr {
     background-color: transparent;
     color: white;
     font-size: 2rem;
+    margin: 10px;
     align-self: flex-end;
   }
 
   ul {
     display: none;
-    background-color: #48484c;
     margin: 0px;
   }
 
